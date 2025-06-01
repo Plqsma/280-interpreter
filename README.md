@@ -1,8 +1,8 @@
-# 📘 SPL Parser and Interpreter (CS280 Project 3)
+# SPL Parser and Interpreter
 
-This project implements a parser and interpreter for a simplified programming language called SPL (Simple Programming Language), designed as part of a compiler construction course. It includes a **lexical analyzer**, **recursive descent parser**, and **expression evaluator**, supporting control structures, declarations, arithmetic expressions, and print statements.
+This project implements a parser and interpreter for a simplified programming language called SPL (Simple Programming Language), designed as part of a compiler construction course. It includes a lexical analyzer, recursive descent parser, and expression evaluator, supporting control structures, declarations, arithmetic expressions, and print statements.
 
-## 🛠️ Features
+## Features
 
 - Tokenization of SPL source code using a custom lexer.
 - Recursive-descent parsing and syntax validation of SPL grammar.
@@ -11,7 +11,7 @@ This project implements a parser and interpreter for a simplified programming la
 - Control structures: `IF`, `THEN`, `ELSE`, `PRINT`, `PROGRAM`, `END`.
 - Expression operators: `+`, `-`, `*`, `/`, `^`, `=`, `>`, `<`, `//` (concat), `::` (type definition).
 
-## 📂 File Structure
+## File Structure
 
 | File | Description |
 |------|-------------|
@@ -32,7 +32,7 @@ g++ -std=c++11 prog3.cpp parserInterp.cpp lex.cpp val.cpp -o spl
 ./spl test_input.txt
 ```
 
-## ✅ Sample Output
+## Sample Output
 
 ```
 Successful Execution
@@ -43,7 +43,7 @@ Unsuccessful Interpretation
 Number of Errors: 3
 ```
 
-## 💡 Example SPL Code (test_input.txt)
+## Example SPL Code (test_input.txt)
 
 ```spl
 PROGRAM
@@ -54,7 +54,7 @@ PROGRAM
 END
 ```
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 - Recursive descent parsing
 - Tokenization and lexical analysis
