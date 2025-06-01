@@ -20,7 +20,7 @@ This project implements a parser and interpreter for a simplified programming la
 | `lex.h/.cpp` | Lexical analyzer (tokenizer) |
 | `val.h/.cpp` | Value class: type management and operator overloading |
 
-## ▶️ How to Run
+## How to Run
 
 1. Compile:
 ```bash
