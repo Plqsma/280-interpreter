@@ -19,7 +19,6 @@ This project implements a parser and interpreter for a simplified programming la
 | `parserInterp.h/.cpp` | Parser function declarations and implementations |
 | `lex.h/.cpp` | Lexical analyzer (tokenizer) |
 | `val.h/.cpp` | Value class: type management and operator overloading |
-| `test_input.txt` | (You can include this in your repo) Example SPL program to test parsing/execution |
 
 ## ▶️ How to Run
 
